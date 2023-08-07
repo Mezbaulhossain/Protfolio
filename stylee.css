@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color:white;
+    background-color:black;
+}
+
+.main{
+   background-color: #c0d9db;
+   height: 10%;
+
+}
+.main h1{
+    font-size: 4.5 rem;
+    font-weight: 750;
+}
+.main h5{
+    font-size: 1.4 rem;
+    line-height: 1;
+    border-bottom: 3px solid red;
+    width:35% ;  
+}
+.main .btn1{
+    height: 45px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+.main .btn1:hover{
+    background-color: rgb(27, 24, 26);
+    transition: 0.5s;
+
+}
+.main .btn2{
+    height: 45px;
+    width: 138px;
+    background-color:transparent;
+    color: rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(233, 20, 109);
+
+}
+.main .btn2:hover{
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+       color: white;
+}
+.aboutme .btn{
+    height: 50px;
+    width: 140px;
+    background-color: rgb(233, 20, 109);
+    color: white; 
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+.aboutme .btn:hover{
+    background-color: rgb(27, 24, 26);
+    transition: 0.5s;
+
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(200, 196, 196);
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+ .btn{
+    height: 40px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: rgb(249, 253, 249);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+ }
+ .survice .btn:hover{
+    background-color: rgb(27, 24, 26);
+    transition: 0.5s;
+    color: white;
+
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(200, 196, 196);
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.circle:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.contact h1{
+text-align: center;
+    font-size: 1.4 rem;
+    line-height: 1;
+    border-bottom: 3px solid red;
+    width: 50%;  
+}
